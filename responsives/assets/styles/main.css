@@ -1,0 +1,152 @@
+/* global */
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: #000; 
+}
+h1,
+h2,
+h3,
+h4{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+h1{
+font-size: 32px;
+
+}
+h2{
+  font-size: 26px;
+}
+h3{
+  font-size: 13px;
+}
+h4{
+  font-size: 12px;
+}
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 17px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* header */
+.header{
+  background: #62346f;
+  color: #fff;
+}
+.container{
+  max-width: 960px;
+  width: 100%;
+  margin: auto; 
+}
+.header.container{
+  display: flex;
+  height: 100px;
+  justify-content:space-between;
+  align-items: center;
+}
+.header a{
+  color: #fff;
+}
+.header .logo{
+font-size: 42px;
+}
+.header-left{
+display: flex;
+align-items: center;
+}
+.header .logo{
+  font-size: 42px;
+  margin-right: 88px;
+  font-weight: bold;
+}
+.header a{
+  color: #fff;
+}
+.header-left ul{
+  display: flex;
+  align-items: center;
+}
+.header-left ul li{
+  margin-right: 40px;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.header-right li{
+  margin-left: 22px;
+}
+.header .container{
+  display: flex;
+  height: 100px;
+  justify-content: space-between;
+  align-content: center;
+}
+
+/* main */
+main{
+  padding: 20px 0; 
+}
+/* news */
+.news,
+.news article{
+  position: relative;
+}
+.news .text{
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+/* new principal */
+.news-principal{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.news-principal a{
+  color: white;
+}
+.news .text-bottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0px 20px 38px;
+}
+.news .text .time-social{
+display: flex;
+justify-content: space-between;
+}
+.news-principal article{
+  position: relative;
+}
+.news-principal .text{
+  background: rgba(0,0,0,0.3);
+}
+
+.news-principal .text1,
+.news-principal .text2{
+  color: white;
+}
+
+.news-principal-one .text{
+padding: 20px;
+}
+.news-principal-two .text{
+padding: 8px;
+}
+.news-principal-there .text{
+padding: 5px;
+}
+/* footer */
